@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="172.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.MenuController">
+   <children>
+      <Button fx:id="goToProfile" layoutY="81.0" mnemonicParsing="false" onAction="#goToProfile" prefHeight="67.0" prefWidth="400.0" style="-fx-background-color: #F5F5DC;" text="GO TO MY PROFILE" />
+      <Button fx:id="goToTimeline" layoutY="148.0" mnemonicParsing="false" onAction="#goToTimeline" prefHeight="67.0" prefWidth="400.0" style="-fx-background-color: #FAEBD7;" text="GO BACK TO TIMELINE" />
+      <Button fx:id="logOut" layoutY="215.0" mnemonicParsing="false" onAction="#logOut" prefHeight="67.0" prefWidth="400.0" style="-fx-background-color: #F2BB66;" text="LOG OUT" />
+      <Text fill="#35be3c" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MENU" textAlignment="CENTER" wrappingWidth="400.0">
+         <font>
+            <Font name="Agency FB" size="60.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

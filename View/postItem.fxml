@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="90.0" prefWidth="360.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="username" layoutX="94.0" layoutY="8.0" prefHeight="27.0" prefWidth="265.0" text="username">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="title" layoutX="94.0" layoutY="45.0" text="title">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <ImageView fx:id="profile" fitHeight="90.0" fitWidth="94.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+   <effect>
+      <InnerShadow blurType="TWO_PASS_BOX" color="#737ca1" height="100.0" radius="49.5" width="100.0" />
+   </effect>
+</AnchorPane>
